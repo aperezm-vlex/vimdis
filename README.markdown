@@ -1,3 +1,6 @@
+
+
+
 # vimdis
 An easy way to start using vim, pre-configured and with some useful plugins installed by default. Also you can install language support and tools effortlessly.
 
@@ -8,7 +11,7 @@ I wanted an easy way to share my vim configuration among different computers and
 
 Follow this steps:
 
-1. `git clone git://github.com/IPGlider/vimdis.git ~/.vim`
+1. `git clone git://github.com/aperezm-vlex/vimdis.git ~/.vim`
 2. `cd ~/.vim`
 3. `rake install`
 4. Profit

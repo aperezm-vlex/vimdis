@@ -113,6 +113,11 @@ namespace :bundle do
   task :ruby do
     install_bundle('https://github.com/vim-ruby/vim-ruby.git')
   end
+
+  desc 'Install Node.js utils'
+  task :nodejs do
+    install_bundle('https://github.com/mustache/vim-mustache-handlebars.git')
+  end
 end
 
 desc 'Install basic system'

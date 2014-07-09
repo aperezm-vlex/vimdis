@@ -29,7 +29,6 @@ Follow this steps:
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
 - [vim-git](https://github.com/tpope/vim-git)
 - [vim-surround](https://github.com/tpope/vim-surround)
-
 ## Language tools
 
 To install plugins and tools for a language just do:
@@ -45,6 +44,8 @@ where name is the one you want to install.
 - ragel: [ragel.vim](https://github.com/jayferd/ragel.vim)
 - rails: [vim-rails](https://github.com/tpope/vim-rails)
 - ruby: [vim-ruby](https://github.com/vim-ruby/vim-ruby)
+- nodejs:
+  - [vim-mustache-handlebars](https://github.com/mustache/vim-mustache-handlebars)
 
 ## Update
 

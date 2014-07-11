@@ -74,10 +74,11 @@ map <Leader>s :call StripTrailingWhitespaces()<CR>
 map <Leader>i :call FixIndent()<CR>
 map <Leader>t :TagbarToggle<CR>
 
-noremap <Up> <NOP>
-noremap <Down> <NOP>
-noremap <Left> <NOP>
-noremap <Right> <NOP>
+"map left/right arrow keys to indendation
+nmap <Left> <<
+nmap <Right> >>
+vmap <Left> <gv
+vmap <Right> >gv
 
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
